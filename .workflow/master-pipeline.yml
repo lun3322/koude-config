@@ -40,9 +40,9 @@ stages:
         name: build_docker
         displayName: 镜像构建
         type: account
-        repository: registry.cn-beijing.aliyuncs.com/lun3322/koude-config
-        username: lun3322@aliyun.com
-        password: 123123qweQ
+        repository: ${config_repository}
+        username: ${username}
+        password: ${password}
         tag: ${GITEE_PIPELINE_BUILD_NUMBER}
         dockerfile: ./Dockerfile
         context: ''

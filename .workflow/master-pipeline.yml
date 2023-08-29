@@ -39,7 +39,7 @@ stages:
         repository: ${config_repository}
         username: ${username}
         password: ${password}
-        tag: ${image_tag}:${GITEE_PIPELINE_BUILD_NUMBER}
+        tag: ${config_repository}/${image_tag}:${GITEE_PIPELINE_BUILD_NUMBER}
         dockerfile: ./Dockerfile
         context: ''
         artifacts: []

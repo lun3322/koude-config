@@ -7,6 +7,10 @@ triggers:
     branches:
       include:
         - master
+variables:
+  repository: registry.cn-beijing.aliyuncs.com/lun3322/koude-config
+  username: lun3322@aliyun.com
+  password: 123123qweQ
 stages:
   - name: compile
     displayName: 编译

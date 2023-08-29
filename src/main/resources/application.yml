@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: url
+          uri: https://git.com
           username: user
           password: pass
           clone-on-start: true
